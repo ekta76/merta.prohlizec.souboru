@@ -25,8 +25,8 @@ public class GUI extends JFrame {
     }
 
     private void loadData (File file) {
-        List<String> listData = Reader.readData(file);
-        listData.forEach(t -> text.append(t + "\n"));
+        List<String> data = Reader.readData(file);
+        data.forEach(t -> text.append(t + "\n"));
     }
 
     private void fileChooser() {
