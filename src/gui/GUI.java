@@ -49,7 +49,6 @@ public class GUI extends JFrame {
         openItem.addActionListener(e -> fileChooser());
 
         menu.add(openItem);
-        menu.addSeparator();
 
         jMenuBar.add(menu);
         setJMenuBar(jMenuBar);
